@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+message SomeMessage
+{
+
+    message Result
+    {
+        uint32 temp = 1;
+        uint32 timestamp = 2;
+    }
+
+    Result result = 1;
+}
